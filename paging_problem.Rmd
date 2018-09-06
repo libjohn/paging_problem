@@ -1,0 +1,20 @@
+---
+title: "Example of Paging Problem"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(devtools)
+```
+
+
+```{r paged.print=TRUE}
+starwars
+```
+
+
+```{r}
+session_info()
+```
+
